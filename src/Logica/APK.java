@@ -21,7 +21,7 @@ public class APK extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/Vista/RegistroMascotas.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/Vista/Escena1.fxml"));
         
         Scene scene = new Scene(root);
         

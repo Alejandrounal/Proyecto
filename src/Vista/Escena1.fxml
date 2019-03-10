@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.Escena1Controller">
+<AnchorPane id="AnchorPane" fx:id="Ventana" prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.Escena1Controller">
    <children>
       <ImageView fitHeight="394.0" fitWidth="602.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -42,7 +42,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Hyperlink layoutX="216.0" layoutY="296.0" text="Registrate! ">
+      <Hyperlink fx:id="hipervinculoResgistro" layoutX="216.0" layoutY="296.0" onAction="#cambiarRegistro" text="Registrate! ">
          <font>
             <Font size="14.0" />
          </font>
