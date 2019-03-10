@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="486.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.RegistroDuenoController">
+   <children>
+      <Pane prefHeight="486.0" prefWidth="806.0">
+         <children>
+            <ImageView fitHeight="488.0" fitWidth="886.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/Fondo-Pareja-Perros.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="14.0" text="REGISTRO DUEÑOS" textFill="#fcf8f8">
+               <font>
+                  <Font name="Showcard Gothic" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="84.0" text="Nombres" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="121.0" text="Identificación" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="251.0" text="Fecha de expedición" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="207.0" text="Fecha de nacimiento" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="290.0" text="Direccion de residencia" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="324.0" text="Número del celular" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="403.0" text="Nombre de usuario" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="441.0" text="Contraseña" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="362.0" text="Correo electronico" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <TextField layoutX="187.0" layoutY="83.0" prefHeight="6.0" prefWidth="231.0" />
+            <TextField layoutX="187.0" layoutY="120.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField layoutX="187.0" layoutY="289.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField layoutX="187.0" layoutY="323.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField layoutX="187.0" layoutY="361.0" prefHeight="25.0" prefWidth="231.0" />
+            <TextField layoutX="187.0" layoutY="403.0" prefHeight="25.0" prefWidth="231.0" />
+            <PasswordField layoutX="187.0" layoutY="440.0" />
+            <DatePicker layoutX="187.0" layoutY="206.0" />
+            <DatePicker layoutX="187.0" layoutY="250.0" />
+            <Button layoutX="637.0" layoutY="415.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="85.0" text="Continuar" />
+            <Label layoutX="7.0" layoutY="166.0" text="Edad" textFill="#fff9f9">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Label>
+            <TextField layoutX="187.0" layoutY="166.0" prefHeight="25.0" prefWidth="231.0" />
+         </children></Pane>
+   </children>
+</AnchorPane>
